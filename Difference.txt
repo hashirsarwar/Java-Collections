@@ -1,0 +1,51 @@
+VECTOR VS ARRAYLIST:
+
+-> Vectors have a function called capacity() which tells the capacity of vector. At start its capacity is 10 but when we add more than 10 elements it increases by 100% i.e it becomes 20, then 40 and so on. On the other hand, arraylist doesn't have any capacity function but according to documentations, it increases the size of array by 50%. So, arraylist saves memory as compared to vectors.
+
+-> Only one thread can call a method of a vector AT A TIME. It means vector is 'synchronized' while arraylist isn't. If you have an ArrayList, you can use the Collections.synchronizedList function to create a synchronized list, thus getting you the equivalent of a Vector.
+
+-> Otherwise, both collections are almost same. Both implement List interface. Vector further extends ArrayList class.
+
+HASHSET VS SORTEDSET:
+
+-> Hashsets are not sorted while Sortedset use comparator to sort objects.
+
+-> Order is not preserved in Hashset while it is preserved in SortedSet.
+
+-> SortedSet is an interface. And we use its child TreeSet. HashSet is child class of Set interface.
+
+-> If we don't want sorted data, there is no need of sortedset. We can use Hashsets.
+
+TREESET VS HASHSET:
+
+-> TreeSet is child of NavigableSet Interface which is further child of SortedSet interface. HashSet is child of Set Interface.
+
+-> TreeSet has navigation and sorting functionalities. So, if we need these functionalities, we will use TreeSet, otherwise HashSet.
+
+ARRAY VS LIST:
+
+-> List is an interface implemented from Collection interface. It has three sub classes ArrayList, LinkedList and Vector. Array is 
+
+-> Array has fixed size while ArrayList has dynamic size.
+
+-> Unlike List, you can't store generic data in Array.
+
+-> List has many built-in functions like size() while Array does not has any built in function.
+
+LIST VS SET:
+
+-> All lists save the order or insertion. In case of set, hash set and navigable set don't save order of insertion.
+
+-> There can be repitition in Lists but not in Sets.
+
+-> We can access an element by it's index in ArrayList but not in Set.
+
+NAVIGABLE SET VS NAVIGABLE MAP:
+
+-> NavigableSet is a child interface of SortedSet which implements Set interface. NavigableMap is a child interface of SortedMap which implements Map interface. 
+
+-> Instead of index in NavigableSet, we specify a key for every value in NavigableMap. That key can be of int, char, String etc.
+
+-> We use add(data) to add an element in NavigableSet and in NavigableMap we use put(key,data) to add data.
+
+ 
