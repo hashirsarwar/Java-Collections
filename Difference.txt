@@ -26,7 +26,7 @@ ARRAY VS LIST:
 
 -> List is an interface implemented from Collection interface. It has three sub classes ArrayList, LinkedList and Vector. Array is 
 
--> Array has fixed size while ArrayList has dynamic size.
+-> Array has fixed size while ArrayList has dynamic size. 
 
 -> Unlike List, you can't store generic data in Array.
 
